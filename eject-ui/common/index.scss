@@ -1,0 +1,30 @@
+$successColor: #00A854;
+$infoColor: #108EE9;
+$wraningColor: #FFBF00;
+$errorColor: #F04134;
+$bgOpacity: .1;
+
+.ej-info-color{
+    color: $infoColor;
+}
+.ej-success-color{
+    color: $successColor;
+}
+.ej-wraning-color{
+    color: $wraningColor;
+}
+.ej-error-color{
+    color: $errorColor;
+}
+.ej-info-bg{
+    background-color: rgba($infoColor, $bgOpacity);
+}
+.ej-success-bg{
+    background-color: rgba($successColor, $bgOpacity);
+}
+.ej-wraning-bg{
+    background-color: rgba($wraningColor, $bgOpacity);
+}
+.ej-error-bg{
+    background-color: rgba($errorColor, $bgOpacity);
+}
