@@ -1,0 +1,17 @@
+.ej-message{
+    position: fixed;
+    top: 40px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    right: 0;
+    max-width: 400px;
+    line-height: 52px;
+    padding: 0 5px;
+    background: white;
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    border-radius: 10px;
+    text-align: center;
+    transition: all .26s ease-out;
+    opacity: 0;
+    z-index: 9999;
+}
